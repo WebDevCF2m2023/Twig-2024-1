@@ -25,4 +25,4 @@ $array = [
 
 // Appel de la vue de test
 // echo $twig->render('test.html.twig', ['chiffres' => $array]);
-echo $twig->render('template.html.twig', ['array' => $array]);
+echo $twig->render('publicView/homepage.html.twig', ['chiffres' => $array]);
